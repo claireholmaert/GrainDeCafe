@@ -1,0 +1,230 @@
+.contact, .container_contact, .container_coffee, body .coffee, footer, .container .cards .cards_back .flags, .container .cards .cards_front {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact, .container_contact, .container_coffee, body .coffee, footer, .container .cards .cards_back .flags, .container .cards .cards_front {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+  width: 90%;
+  margin: auto;
+}
+
+h1 {
+  font-family: "Urbanist", sans-serif;
+  color: #d5aa72;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+}
+nav a {
+  position: relative;
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 22px;
+  color: #5e4025;
+}
+nav a:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #d5aa72;
+  bottom: -3px;
+  left: 0;
+  transform-origin: center bottom;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+nav a:hover::after {
+  transform: scaleX(1);
+}
+
+.contact, .container_contact, .container_coffee, body .coffee, footer, .container .cards .cards_back .flags, .container .cards .cards_front {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  margin-top: 30px;
+  justify-content: center;
+  gap: 20px;
+}
+.container .cards {
+  padding-left: 10px;
+  width: 45%;
+  border: 1px solid #3d2312;
+  border-radius: 20px;
+}
+.container .cards .cards_front h2 {
+  font-family: "Urbanist", sans-serif;
+  color: #d5aa72;
+  position: relative;
+  cursor: pointer;
+}
+.container .cards .cards_front h2:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #a66a2c;
+  bottom: -3px;
+  left: 0;
+  transform-origin: center bottom;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+.container .cards .cards_front h2:hover::after {
+  transform: scaleX(1);
+}
+.container .cards .cards_back p {
+  font-family: "Josefin Sans", sans-serif;
+}
+.container .cards .cards_back .flags {
+  gap: 10px;
+}
+.container .cards .cards_back .flags img {
+  width: 50px;
+  height: 100px;
+}
+
+footer {
+  margin-top: 30px;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #d5aa72;
+}
+
+body {
+  margin: 0;
+  background-color: #f5f5fa;
+}
+body .coffee #imgCoffee {
+  width: 100vw;
+  border-radius: 20px;
+}
+body a {
+  text-decoration: none;
+}
+
+.container_coffee {
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 10px;
+}
+.container_coffee .cards_coffee {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  gap: 10px;
+}
+.container_coffee .cards_coffee img {
+  width: 300px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+.container_coffee .cards_coffee .cards_right {
+  text-align: end;
+}
+.container_coffee .cards_coffee .cards_right h2 {
+  font-family: "Urbanist", sans-serif;
+  color: #a66a2c;
+  -webkit-text-decoration: underline #3d2312;
+          text-decoration: underline #3d2312;
+}
+.container_coffee .cards_coffee .cards_right p {
+  font-family: "Josefin Sans", sans-serif;
+  color: #5e4025;
+}
+.container_coffee .cards_coffee .cards_left {
+  text-align: start;
+}
+.container_coffee .cards_coffee .cards_left h2 {
+  font-family: "Urbanist", sans-serif;
+  color: #3d2312;
+  -webkit-text-decoration: underline #a66a2c;
+          text-decoration: underline #a66a2c;
+}
+.container_coffee .cards_coffee .cards_left p {
+  font-family: "Josefin Sans", sans-serif;
+  color: #5e4025;
+}
+
+.container_contact {
+  height: 100vh;
+}
+.container_contact img {
+  width: 100%;
+  position: relative;
+  opacity: 0.3;
+}
+
+.contact {
+  position: absolute;
+  width: 50%;
+  flex-direction: column;
+  border: 1px solid #3d2312;
+  border-radius: 20px;
+}
+.contact h2 {
+  font-family: "Urbanist", sans-serif;
+  color: #a66a2c;
+  -webkit-text-decoration: underline #5e4025;
+          text-decoration: underline #5e4025;
+}
+.contact a {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: #3d2312;
+}
+.contact a:hover {
+  color: #d5aa72;
+  transition: 0.3s;
+}
+.contact p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+}/*# sourceMappingURL=main.css.map */

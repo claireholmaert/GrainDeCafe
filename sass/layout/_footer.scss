@@ -1,0 +1,6 @@
+footer {
+    @extend %flex_center;
+    margin-top: 30px;
+    font-family: $secondary_font;
+    background-color: $quaternary_color;
+}

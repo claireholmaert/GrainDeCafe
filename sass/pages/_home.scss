@@ -1,0 +1,31 @@
+// utils
+@import '../utils/variables';
+@import '../utils/placeholders';
+@import '../utils/mixins';
+
+// layout
+@import '../layout/header.scss';
+@import '../layout/main';
+@import '../layout/footer.scss';
+
+body {
+    margin: 0;
+    background-color: $quinary_color;
+
+    .coffee {
+        @extend %flex_center;
+        #imgCoffee {
+            width: 100vw;
+            border-radius: 20px;
+        }
+    }
+    
+    a {
+        text-decoration: none;
+    }
+}
+
+
+
+
+

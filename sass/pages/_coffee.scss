@@ -1,0 +1,49 @@
+.container_coffee {
+    @extend %flex_center;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 10px;
+   
+    .cards_coffee {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        gap: 10px;
+
+        img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+
+        .cards_right {
+            text-align: end;
+            h2 {
+                font-family: $tertiary_font;
+                color: $tertiary_color;
+                text-decoration: underline $main_color;
+            }
+
+            p {
+                font-family: $secondary_font;
+                color: $secondary_color;
+            }
+        }
+
+        .cards_left {
+            text-align: start;
+            h2 {
+                font-family: $tertiary_font;
+                color: $main_color;
+                text-decoration: underline $tertiary_color;
+            }
+
+            p {
+                font-family: $secondary_font;
+                color: $secondary_color;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,45 @@
+.container_contact {
+    @extend %flex_center;
+    height: 100vh;
+
+    img{
+        width: 100%;
+        position: relative;
+        opacity: 0.3;
+    }
+
+}
+.contact {
+
+    position: absolute;
+    @extend %flex_center;
+    width: 50%;
+    flex-direction: column;
+    border: 1px solid $main_color;
+    border-radius: 20px;
+
+    h2 {
+        font-family: $tertiary_font;
+        color: $tertiary_color;
+        text-decoration: underline $secondary_color;
+    }
+
+    a {
+        font-family: $secondary_font;
+        font-size: 18px;
+        text-decoration: none;
+        color: $main_color;
+
+        &:hover {
+            color: $quaternary_color;
+            transition: 0.3s;
+        }
+    }
+
+    p {
+        font-family: $secondary_font;
+        font-size: 18px;
+    }
+}
+
+
